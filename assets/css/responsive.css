@@ -1,0 +1,40 @@
+@media (max-width: 1023px) {
+    
+}
+
+@media (max-width: 380px) {
+    .wrapper {
+        margin: 0 20px;
+    }
+    .music-list__heading {
+        margin-bottom: 14px;
+    }
+    .top-bar__volume::before,
+    .volume-process::before {
+        display: none;
+    }
+    .top-bar__volume {
+        cursor: default;
+    }
+}
+
+@media (max-width: 325px) {
+    .wrapper {
+        min-height: 490px;
+    }
+    .img-playing img {
+        height: 180px;
+    }
+    .song-detail__name {
+        font-size: 16px;
+    }
+    .song-detail__describe {
+        font-size: 14px;
+    }
+    .music-list__item-name {
+        font-size: 16px;
+    }
+    .music-list__item-des {
+        font-size: 14px;
+    }
+}
